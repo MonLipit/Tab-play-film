@@ -1,0 +1,146 @@
+.header {
+    width: 25%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    flex: 3;
+    height: 100%;
+    display: flex;
+}
+
+/* BRANDS */
+
+.header__brand {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    justify-content: center;
+    background: #0d0d0f;
+}
+
+.header__brand div {
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+}
+
+.header__brand div img {
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    transition: all 0.15s linear;
+}
+
+.header__brand div img:hover {
+    transform: scale(1.5);
+}
+
+.header__brand div i {
+    font-size: 30px;
+    color: var(--text-color);
+    transition: all 0.15s linear;
+}
+
+.header__brand div i:hover {
+    color: var(--hover-text-color);
+    transform: scale(1.2);
+}
+
+/* NAV BAR */
+.header__navBar {
+    background-color: #1A161E;
+    width: 75%;
+    padding: 40px 16px 20px;
+}
+
+.header__navBar li.active a {
+    color: var(--hover-text-color);
+}
+
+.navBar {
+    margin: 20px 0;
+    border-bottom: 2px solid #68696f;
+}
+
+.navBar h2 {
+    font-size: 16px;
+    font-weight: 700;
+    color: #ffa500;
+}
+
+.navBar li {
+    list-style-type: none;
+    margin: 24px 0;
+    position: relative;
+}
+
+.navBar li a {
+    position: relative;
+    text-decoration: none;
+    color: var(--text-color);
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    width: 100%;
+    display: inline-block;
+}
+
+.navBar__notify {
+    position: absolute;
+    top: -2px;
+    right: 6px;
+    min-width: 24px;
+    min-height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    color: white;
+    border-radius:50%;
+}
+
+.navBar li a span {
+    display: inline-block;
+    position: absolute;
+    left: 40px;
+}
+
+.navBar li a::before {
+    content: "";
+    position: absolute;
+    left: -16px;
+    border-width: 8px 8px;
+    border-style: solid;
+    border-color: transparent transparent transparent red;
+    display: none;
+    animation: arrowSlideIn linear 0.2s;
+}
+
+.navBar li:hover a{
+    color: var(--hover-text-color);
+}
+
+.navBar li:hover a::before{
+    display: block;
+}
+
+@keyframes arrowSlideIn {
+    from {
+        top: -8px;
+        opacity: 0;
+    }
+    to {
+        top: -2px;
+        opacity: 1;
+    }
+}
+
+.navBar li a i {
+    padding-right: 10px;
+}
+
+.navBar__settings {
+    border-bottom: none;
+}
