@@ -223,10 +223,34 @@
 .main__server .block .server-2:hover{
     background-color: red;
 }
-
-
-
-
+.review__film .text{
+    display: flex;
+    
+}
+.review__film .text h3{
+    color: orange;
+    padding-right: 10px;
+    padding-bottom: 5px;
+}
+.review__film .text h6{
+    color: white;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: lighter;
+}
+.translate .vietsub .icon{
+    display: flex;
+    color: white;
+    padding-top: 10px;
+}
+.translate .vietsub .icon h6{
+    font-size: 14px;
+    font-weight: lighter;
+    font-style:initial;
+    padding-left: 3px;
+    padding-bottom: 10px;
+    
+}
 
 
 
