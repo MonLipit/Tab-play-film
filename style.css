@@ -237,6 +237,7 @@
     font-size: 13px;
     font-style: normal;
     font-weight: lighter;
+    
 }
 .translate .vietsub .icon{
     display: flex;
@@ -248,18 +249,110 @@
     font-weight: lighter;
     font-style:initial;
     padding-left: 3px;
-    padding-bottom: 10px;
-    
+    padding-bottom: 10px;  
 }
 
+.translate .vietsub .button button{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 2px 4px;
+}
+.translate .vietsub .button .btn1{
+    background-color: rgb(236, 85, 97);
+}
+.translate .vietsub .button button:hover{
+    background-color: rgb(236, 85, 97);
+}
 
+.translate .thuyetminh .icon{
+    display: flex;
+    color: white;
+    padding-top: 10px;
+}
+.translate .thuyetminh .icon h6{
+    font-size: 14px;
+    font-weight: lighter;
+    font-style:initial;
+    padding-left: 3px;
+    padding-bottom: 10px;
+}
 
+.translate .thuyetminh button{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 2px 4px;
+}
+.translate .thuyetminh button:hover{
+    background-color: rgb(236, 85, 97);
+}
 
+.comment{
+    
+    margin-top: 50px;
+    padding: 10px;
+}
+.comment .text_content{
+    color: yellow;
+    font-size: 20px;
+}
+.comment .container_header{
+    background-color: white;
+    padding: 15px 15px;
+    border-radius: 10px;
+}
+.comment .container_header h6{
+    font-size: 15px;
+    font-weight: lighter;
+    padding-bottom: 16px;
+}
+.comment .container_header .like #like{
+    display: flex;
+    text-align: center;
+    padding: 6px 10px;
+}
+.comment .container_header .like{
+    background-color: rgb(40, 103, 211);
+    color: white;
+    border-radius: 6px;
+    
+}
+.comment .container_header .like h5{
+    padding-left: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+}
 
+.comment .container_header .header__comment{
+    padding-top: 20px;
+    display: flex;
+}
+.comment .container_header .header__comment h6{
+    padding-right: 1000px;
+    font-weight: bold;
+}
+.comment .container_header .header__comment .lister-sort-by-container .lister-sort-by-label{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.comment .container_header .header__comment .lister-sort-by-container .lister-sort-by{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
-
-
-
+.comment .main__comment{
+    border-top: 1px solid gray;
+}
+.comment .main__comment .container{
+    padding-top: 20px;
+    display: flex;
+}
+.comment .main__comment .container .comment__text{
+    margin-left: 10px;
+    padding: 3px 1010px 20px 3px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
 
 
 
